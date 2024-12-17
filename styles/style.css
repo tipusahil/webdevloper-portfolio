@@ -71,9 +71,14 @@ color:#FD6E0A;
     align-items: center;    /* vertical aling-item property te center na korle picture ar texts content eki line,eki width borabor boshtona  */
     display: flex;    /* display flex korai man & texts content gulo flex hoye pashapashi bosce */
     justify-content: space-between;
-background-image: url(../images/banner_bg.png);
+background-image: url("../images/banner_bg.png"),url("../images/developer.png");
+/* 1.evabe url er bracket er vitore image er link dewar smy quetion er vitore dile tik moto kaj korbe.
+2.ekta property te 2ta url value use kora jai,tar jonno majkane koma dite hoi.
+ */
 background-repeat: no-repeat;
-background-position:bottom right;
+background-position:bottom right, left center;
+background-size: contain;
+/* ekane 2ta url/image er jonno 1ta (background-position) property te 2ta value dewa hoyece,karon url 2ta tar kajkane(,)koma diye, protom (bottom right)value ta 1st url er jonno & second (top left)value ta 2nd url er jonno */
 
  }
 
