@@ -46,7 +46,7 @@ nav ul li a {
     color: black;
 }
 
-.btn-hire_me , .btn-download-cv {
+.btn-hire_me , .btn-download-cv ,.submit-btn {
     background-color: #FD6E0A;
     color: white;
     font-size: 20px;
@@ -112,7 +112,7 @@ background-position:bottom right;
  }
 
  .about_section1{
-    background-color: rgb(243, 238, 215);
+    background-color: white;
     margin: 100px;
 
     border-radius: 5px;
@@ -133,10 +133,9 @@ background-position:bottom right;
  }
 
  .about_info_container{
-    background-color: aquamarine;
     display: flex;
     justify-content: space-evenly;
-    border-bottom:10px solid white;
+    border:2px solid #FD6E0A;
     border-radius: 5px; 
  }
 
@@ -215,4 +214,50 @@ background-position:bottom right;
 .download_cv2{
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* footer styles start */
+footer{
+    display: flex;
+    width: 80%;
+    background-color:rgb(255, 222, 239) ;
+    margin-top: 80px;
+    padding:120px 200px;
+ border-radius: 5px; 
+
+ 
+}
+
+.footer_column{
+    width: 50%;
+   display: block;
+padding:0px 50px;
+align-items: center;
+background-color: white;
+border-radius: 5px;
+
+}
+
+
+form [type="text"] ,[type="email"],[name="text"] {
+    display: block;
+   margin:0px 30px 20px 0px;
+    border-radius: 10px;
+    width: 100%; 
+    padding:18px 10px;
+     color:gray;
+    border:2px solid #FD6E0A;
+    background-color: white;
+}
+
+.submit-btn {  /* eshob btn e same style ta copy kore ekane ana hoyece shudo. .btn-hire_me , .btn-download-cv , */
+
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0; 
+    padding: 15px 30px;
+    cursor: pointer;
 }
