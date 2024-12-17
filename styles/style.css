@@ -220,9 +220,9 @@ background-position:bottom right;
 /* footer styles start */
 footer{
     display: flex;
-    width: 80%;
     background-color:rgb(255, 222, 239) ;
     margin-top: 80px;
+    justify-content:center;
     padding:120px 200px;
  border-radius: 5px; 
 
