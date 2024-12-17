@@ -1,0 +1,61 @@
+/* font family for all */
+
+
+
+body {
+    /* body er jaigai (*)star k selector hisebe use kore ei (font-family) property er style ta dewa jabe. */
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+}
+
+
+/* nav related styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* nav er (h3,ul) item gulo 2ta 2pashe sundor vabe 4pashe jaiga reke boshar jonno justify-content propery use kora hoyece.*/
+    align-items:center; 
+    /* nav er vitore thaka h3,& ul tag k eki line e soman vabe majkane boshanor jonno align-items property use kore center e ana hoyece.  */
+}
+
+nav>.nav_mary {
+    font-size: 45px;
+    font-weight: 800px;
+    color: black;
+}
+
+.orange-color {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    /* ul er vitore thaka li tag gulo k eki line e soman vabe majkane boshanor jonno align-items property use kore center e ana hoyece.  */
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-hire_me {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0; /* defualt vabe border diye dei, tai border 0 dile kuno border dekabena.*/
+    padding: 15px 30px;
+}
+
