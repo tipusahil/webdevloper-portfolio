@@ -20,8 +20,9 @@ nav {
     display: flex;
     justify-content: space-between;
     /* nav er (h3,ul) item gulo 2ta 2pashe sundor vabe 4pashe jaiga reke boshar jonno justify-content propery use kora hoyece.*/
-    align-items:center; 
-    /* nav er vitore thaka h3,& ul tag k eki line e soman vabe majkane boshanor jonno align-items property use kore center e ana hoyece.  */
+    align-items:center; /* nav er vitore thaka h3,& ul tag k eki line e soman vabe majkane boshanor jonno align-items property use kore center e ana hoyece.  */
+    margin:0 200px;
+    
 }
 
 nav>.nav_mary {
@@ -50,7 +51,7 @@ nav ul li a {
     color: black;
 }
 
-.btn-hire_me {
+.btn-hire_me , .btn-download-cv {
     background-color: #FD6E0A;
     color: white;
     font-size: 20px;
@@ -59,3 +60,25 @@ nav ul li a {
     padding: 15px 30px;
 }
 
+.btn-contact{
+padding: 15px 35px;
+border:2px solid #FD6E0A;
+font-size: 20px;
+border-radius: 10px;
+color:#FD6E0A;
+
+}
+
+
+ header .banner{
+    padding: 30px 30px 30px 150px;
+    background-color: rgb(255, 222, 239);
+    align-items: center;    /* vertical aling-item property te center na korle picture ar texts content eki line,eki width borabor boshtona  */
+    display: flex;    /* display flex korai man & texts content gulo flex hoye pashapashi bosce */
+
+
+ }
+
+ .man_img{
+    width: 500px;
+ }
