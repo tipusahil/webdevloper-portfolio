@@ -108,23 +108,89 @@ background-position:bottom right;
     background-color:rgb(255, 222, 239) ;
     align-content: center;
     margin: 80px;
- 
+ border-radius: 5px;
  }
 
  .about_section1{
-    background-color: white;
+    background-color: rgb(243, 238, 215);
     margin: 100px;
-    text-align: center;
+
+    border-radius: 5px;
  }
 
- .about_section1 .about_me{
+ .about_section1 .about_me_h3{
     font-size: 35px;
-    
+    text-align: center;
+
  }
 
- .about_section1 p{
+ .about_p1 , .section_what_p , .skill_p{
     color:rgb(101, 101, 101);
     font-weight: 100;
     font-size: 15px;
     font-weight: normal;
+    text-align: center;
  }
+
+ .about_info_container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom:10px solid white;
+    border-radius: 5px; 
+ }
+
+ .about_info_gulo{
+    background-color: transparent;
+    text-align: center;
+    border-radius: 5px;
+  
+ }
+
+ .info_title{
+      line-height: normal;
+      margin:0;
+      font-weight: 100;
+ }
+
+ .info_p{
+    font-weight: 600;
+ }
+ 
+/* what section related style */
+
+.what_h3{
+    font-size: 35px;
+    text-align: center;
+}
+.section2_what_p{
+    padding: 30px 110px;
+   text-align: center;
+ }
+
+/* skills related styles */
+
+.skills_container{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+.skill{
+   margin: 20px;
+    border:2px solid #FD6E0A;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+    /* box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6); */
+    box-shadow: 0px 6px 50px 0px #f988378e;
+}
+
+
+/* summery resume styles shuro */
+.summery_section3_h3{
+    font-size: 35px;
+    text-align: center;
+}
+
